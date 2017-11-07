@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ojdbc6-12.1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Preferences/DataGrip2017.1/jdbc-drivers/Oracle/12.1.0.2/ojdbc6-12.1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

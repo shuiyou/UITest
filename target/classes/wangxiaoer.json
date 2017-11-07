@@ -1,0 +1,14 @@
+{
+  "car": null,
+"birthday":"1991-05-03",
+"has_girlfriend":false,
+"age": 25,
+"school": "蓝翔",
+"name":"王小二",
+"house": null,
+"major":[
+  "理发",
+  "挖掘机"
+]
+
+}
