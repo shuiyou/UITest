@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33dfbd20-5d0f-4c02-9300-88d38df3dcdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TestDepositoryBank/ReadFile.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UITest.iml" afterPath="$PROJECT_DIR$/UITest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/DbEnviorment.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/DbEnviorment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/InsertDate.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/InsertDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/OraclePasswd.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/OraclePasswd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/readProperties.java" afterPath="$PROJECT_DIR$/src/main/java/readProperties.java" />
     </list>
     <ignored path="UITest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1289,12 +1277,20 @@
       <workItem from="1536055882668" duration="2781000" />
       <workItem from="1536222237248" duration="1129000" />
       <workItem from="1536230543203" duration="2406000" />
-      <workItem from="1536296147818" duration="120000" />
+      <workItem from="1536296147818" duration="191000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1536296332158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536296332158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215269000" />
+    <option name="totallyTimeSpent" value="215340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1378,6 +1374,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
