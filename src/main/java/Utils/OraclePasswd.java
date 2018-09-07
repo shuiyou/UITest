@@ -44,7 +44,7 @@ public class OraclePasswd {
                 + "\"MANAGER\":\"manager\"," + "\"QA\":\"qa\"," + "\"PILOTUSER\":\"xWeh7ya0bGXQ80\"}";
         String Value = null;
         JSONObject jsonObject = JSON.parseObject(jsonString, JSONObject.class);
-        System.out.print(jsonObject);
+       // System.out.print(jsonObject);
         username = username.toUpperCase();
         if (username.equals("LIANTIAO")) {
             username = "MAYUNFEI";

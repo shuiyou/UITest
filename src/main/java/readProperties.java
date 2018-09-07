@@ -9,6 +9,8 @@ import java.util.Properties;
 public class readProperties {
 
 
+
+
     public static void main(String[] args)throws IOException{
         Properties properties = new Properties();
         FileInputStream in =new FileInputStream(new File("/Users/hanxiaodi/UITest/src/main/resources/a.properties"));

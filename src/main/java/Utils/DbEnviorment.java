@@ -16,9 +16,10 @@ public class DbEnviorment
 	static String database;
 	static String username;
 	static String pwd;
+	public Statement stmt=null;
 
 
-	public  Statement Connect(String host,String database, String name,String password){
+	public  Connection Connect(String host,String database, String name,String password){
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 		}catch(ClassNotFoundException e1){
@@ -34,7 +35,7 @@ public class DbEnviorment
 			String url ="jdbc:oracle:thin:@"+host+":"+database;
 			try{
 				con = DriverManager.getConnection(url,username,password);
-				Statement stmt = con.createStatement();
+
 			}catch (SQLException e2){
 				e2.printStackTrace();
 			}
@@ -43,16 +44,13 @@ public class DbEnviorment
 			String url = "jdbc:oracle:thin:@" + DbEnviorment.host + ":" + DbEnviorment.database;
 			try{
 				con = DriverManager.getConnection(url,DbEnviorment.username,DbEnviorment.pwd);
-				Statement stmt = con.createStatement();
+				// stmt = con.createStatement();
+
 			}catch (SQLException e2){
 				e2.printStackTrace();
 			}
 		}
 
-
-		return statement;
-
-
-
+		return con;
 	}
 }
